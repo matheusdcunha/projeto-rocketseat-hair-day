@@ -1,8 +1,8 @@
 export function hoursClick(){
-  const hours = document.querySelectorAll(".hour-availabe")
+  const hours = document.querySelectorAll(".hour-available")
 
-  hours.forEach((avaiable)=>{
-    avaiable.addEventListener("click", (selected)=>{
+  hours.forEach((available)=>{
+    available.addEventListener("click", (selected)=>{
 
       //Remove a classe hour-selected de todas as li não selecionadas.
       hours.forEach((hours)=>{
